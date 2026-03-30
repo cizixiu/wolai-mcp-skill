@@ -1,6 +1,18 @@
 {
   "ownerId": "kn7ej3rkcaj80aygz0v9xy6x198338r4",
   "slug": "wolai-mcp-skill",
-  "version": "1.2.8",
-  "publishedAt": 1774855872939
+  "version": "1.2.10",
+  "publishedAt": 1774855872939,
+  "credentials": {
+    "WOLAI_MCP_TOKEN": {
+      "type": "string",
+      "description": "wolai MCP Token，在 wolai → 个人设置 → MCP 接入 中创建，以 sk- 开头",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "source": {
+    "type": "github",
+    "url": "https://github.com/cizixiu/wolai-mcp-skill"
+  }
 }
